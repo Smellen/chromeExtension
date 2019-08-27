@@ -1,0 +1,16 @@
+{
+    "name": "Ellen - Chrome Extension",
+    "version": "1.0",
+    "description": "An extension that is inspecting all requests that go through chrome",
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["js/background.js"],
+      "persistent": true
+    },
+    "permissions" : 
+    [
+	"webRequest",
+	"webRequestBlocking",
+	"*://*/*"
+    ] 
+  }
