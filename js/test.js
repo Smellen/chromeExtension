@@ -7,7 +7,6 @@
 
         if (!tabStorage.hasOwnProperty(tabId) || !tabStorage[tabId].requests.hasOwnProperty(requestId)) {
 
-                console.log('In the onCompleted section doing something');
                 return;
         }
 
